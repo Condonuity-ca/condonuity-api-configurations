@@ -1,20 +1,26 @@
 # Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+This is configuration repository for all condonuity project repos
 
 # Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+All services + servers will individually host their respective configurations across 3 environments - dev, staging and production 
 
 # Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+In order to build and run services on your local machine please do the following in each maven module run configuration:
+
+(a) Set the -Dspring.profiles.active parameter to dev 
+This should pick up all configurations based on the {application-name}-dev.yml properties file 
+
+(b) Custom override local properties 
+If you wish to custom override local properties i.e. not from the repo,
+   - Create a local property file ex. {user-service-local.yml}; note the {location}
+   - Copy the boilerplate properties from the user-service-dev.yml in this repository
+   - Change + add attributes as required for local run ex. DB passwords etc.
+   - Change the run configuration on local to include environment variable set as 
+            spring.config.location={location}/{user-service-local.yml} 
 
 # Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
-
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+For a new maven module to be added to parent project
+    - Create a new folder in this repository for configuration
+    - Name the property files as per the applciation name setting in the new module
+        For ex. New module is to be created for insurance-service; add the spring.application.name=insurance-service in modules application.properties file
+    - Name the cinfiguration files as {application-name}-{profile}.yml
