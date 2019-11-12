@@ -10,7 +10,7 @@ spring:
   datasource:
     url: jdbc:mysql://condonuitydev.mysql.database.azure.com:3306/condonuitydev?serverTimezone=UTC&useLegacyDatetimeCode=false
     username: condonuitydbuser@condonuitydev
-    password: A#C<)}5gCnP8qQv
+    password: {cipher}6daf5f27c67693936ab2330f0dfeb573a7324302fb083cc6cad2b9a8bddb3ec5
 #    url: jdbc:mysql://localhost:3306/security_services_condonuity?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
 #    username: root
 #    password:
