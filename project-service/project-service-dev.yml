@@ -13,7 +13,7 @@ spring:
 #    password: rootpass
     url: jdbc:mysql://condonuitydev.mysql.database.azure.com:3306/condonuitydev?serverTimezone=UTC&useLegacyDatetimeCode=false
     username: condonuitydbuser@condonuitydev
-    password: A#C<)}5gCnP8qQv
+    password: 
 
 spring.jpa:
   hibernate:
