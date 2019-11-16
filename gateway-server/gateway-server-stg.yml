@@ -19,8 +19,8 @@ zuul:
       stripPrefix: false
       sensitiveHeaders: Cookie,Set-Cookie
     client-service:
-      path: /clients/**
-      serviceId: client-service
+      path: /security/**
+      serviceId: security-service
       stripPrefix: true
     project-service:
       path: /projects/**
