@@ -20,7 +20,7 @@ zuul:
       sensitiveHeaders: Cookie,Set-Cookie
     client-service:
       path: /clients/**
-      serviceId: client-service
+      serviceId: security-service
       stripPrefix: true
     project-service:
       path: /projects/**
