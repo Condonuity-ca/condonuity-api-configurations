@@ -6,6 +6,9 @@ eureka:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/
 
+ribbon:
+   ReadTimeout: 60000
+
 zuul:
   ignoredServices: '*'
   routes:
