@@ -1,0 +1,13 @@
+server:
+  port: 8205
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
+azure.storage.ConnectionString=DefaultEndpointsProtocol=https;AccountName=condonuitystoragedev;AccountKey=N/oUNCz94V4HPr1pG6llGGQLjmlTwfyeVYhDiTIKHvj+UR9RlQhfQqib39wQpAUFkx/qERbt4hd1ejPcjEZ8tQ==;EndpointSuffix=core.windows.net
+azure.storage.container.name=condonuitystoragedev
+
+
+      

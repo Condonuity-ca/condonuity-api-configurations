@@ -29,3 +29,7 @@ zuul:
       path: /projects/**
       serviceId: project-service
       stripPrefix: true
+    file-service:
+      path: /files/**
+      serviceId: file-service
+      stripPrefix: true
