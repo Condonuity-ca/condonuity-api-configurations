@@ -21,7 +21,7 @@ zuul:
       serviceId: auth-service
       stripPrefix: false
       sensitiveHeaders: Cookie,Set-Cookie
-    client-service:
+    security-service:
       path: /security/**
       serviceId: security-service
       stripPrefix: true
