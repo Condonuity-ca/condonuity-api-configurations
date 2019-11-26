@@ -1,8 +1,6 @@
 server:
   port: 8761
 eureka:
-  # instance:
-    # lease-renewal-interval-in-seconds: 300
   client:
     registerWithEureka: false
     fetchRegistry: false
