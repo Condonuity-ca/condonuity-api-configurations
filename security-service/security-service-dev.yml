@@ -8,9 +8,6 @@ eureka:
 
 spring:
   datasource:
-#    url: jdbc:mysql://localhost:3306/condonuitydev
-#    username: root
-#    password: rootpass
     url: jdbc:mysql://condonuitydev.mysql.database.azure.com:3306/condonuitydev?serverTimezone=UTC&useLegacyDatetimeCode=false
     username: condonuitydbuser@condonuitydev
     password: '{cipher}c822ef0dae34f3ed01d913f277528d004a6f2a090cdb1f18ebe7f33553446d02'
