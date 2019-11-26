@@ -8,6 +8,8 @@ eureka:
 
 ribbon:
    ReadTimeout: 60000
+   eureka:
+      enabled: false
 
 zuul:
   ignoredServices: '*'
