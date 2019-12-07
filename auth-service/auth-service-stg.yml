@@ -1,6 +1,10 @@
 server:
   port: 8202
 
+management:
+  security:
+    enabled: false
+
 eureka:
   client:
     serviceUrl:
