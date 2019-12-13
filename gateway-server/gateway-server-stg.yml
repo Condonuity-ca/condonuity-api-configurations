@@ -20,6 +20,7 @@ zuul:
     auth-service:
       path: /auth/**
       serviceId: auth-service
+      url: "http://localhost:8202/"
       stripPrefix: false
       sensitiveHeaders: Cookie,Set-Cookie
     security-service:
