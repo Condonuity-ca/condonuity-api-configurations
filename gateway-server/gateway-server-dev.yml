@@ -7,10 +7,11 @@ eureka:
       defaultZone: http://127.0.0.1:8761/eureka/
 
 ribbon:
-   ReadTimeout: 60000
+  ReadTimeout: 60000
 
 zuul:
   ignoredServices: '*'
+  ignored-headers: Access-Control-Allow-Credentials, Access-Control-Allow-Origin
   routes:
     user-service:
       path: /users/**
@@ -21,7 +22,7 @@ zuul:
       serviceId: auth-service
       stripPrefix: false
       sensitiveHeaders: Cookie,Set-Cookie
-    client-service:
+    security-service:
       path: /security/**
       serviceId: security-service
       stripPrefix: true

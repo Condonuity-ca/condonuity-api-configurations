@@ -11,6 +11,7 @@ ribbon:
 
 zuul:
   ignoredServices: '*'
+  ignored-headers: Access-Control-Allow-Credentials, Access-Control-Allow-Origin
   routes:
     user-service:
       path: /users/**
@@ -21,7 +22,7 @@ zuul:
       serviceId: auth-service
       stripPrefix: false
       sensitiveHeaders: Cookie,Set-Cookie
-    client-service:
+    security-service:
       path: /security/**
       serviceId: security-service
       stripPrefix: true
