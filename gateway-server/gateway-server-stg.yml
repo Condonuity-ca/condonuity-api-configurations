@@ -25,6 +25,7 @@ zuul:
     security-service:
       path: /security/**
       serviceId: security-service
+      url: "http://localhost:8203/"
       stripPrefix: true
     project-service:
       path: /projects/**
