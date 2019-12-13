@@ -4,10 +4,7 @@ server:
 eureka:
   client:
     serviceUrl:
-<<<<<<< HEAD
       defaultZone: http://127.0.0.1:8761/eureka/
-=======
-      defaultZone: http://localhost:8761/eureka/
 
 spring:
   datasource:
