@@ -22,3 +22,26 @@ spring.jpa:
     hibernate:
       dialect: org.hibernate.dialect.MySQL5InnoDBDialect
   show-sql: true
+
+spring:
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: condonuitydev@gmail.com
+    password: yixtxkshnfaykpsh
+
+# Other properties
+    properties:
+      mail:
+        smtp:
+          auth: true
+          connectiontimeout: 5000
+          timeout: 5000
+          writetimeout: 5000
+# TLS , port 587
+          starttls:
+            enable: true
+
+# SSL, post 465
+#spring.mail.properties.mail.smtp.socketFactory.port = 465
+#spring.mail.properties.mail.smtp.socketFactory.class = javax.net.ssl.SSLSocketFactory
