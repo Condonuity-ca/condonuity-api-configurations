@@ -46,5 +46,8 @@ spring.mail:
 # SSL, post 465
         ssl:
           enable: true
-        socketFactory.port = 465
-        socketFactory.class = javax.net.ssl.SSLSocketFactory
+        socketFactory.port: 465
+        socketFactory.class: javax.net.ssl.SSLSocketFactory
+
+
+        
