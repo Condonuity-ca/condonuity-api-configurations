@@ -11,3 +11,20 @@ azure:
     ConnectionString: DefaultEndpointsProtocol=https;AccountName=condonuitystoragedev;AccountKey=N/oUNCz94V4HPr1pG6llGGQLjmlTwfyeVYhDiTIKHvj+UR9RlQhfQqib39wQpAUFkx/qERbt4hd1ejPcjEZ8tQ==;EndpointSuffix=core.windows.net
     container:
       name: condonuitystoragedev
+
+spring:
+  datasource:
+    url: jdbc:mysql://condonuitydev.mysql.database.azure.com:3306/condonuitydev?serverTimezone=UTC&useLegacyDatetimeCode=false
+    username: condonuitydbuser@condonuitydev
+    password: '{cipher}c822ef0dae34f3ed01d913f277528d004a6f2a090cdb1f18ebe7f33553446d02'
+
+spring.jpa:
+  hibernate:
+    connection:
+      charset: utf8
+      useUnicode: true
+    ddl-auto: update
+  properties:
+    hibernate:
+      dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+  show-sql: true
