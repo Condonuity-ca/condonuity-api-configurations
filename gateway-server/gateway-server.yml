@@ -34,3 +34,7 @@ zuul:
       path: /files/**
       serviceId: file-service
       stripPrefix: true
+    message-service:
+      path: /messages/**
+      serviceId: message-service
+      stripPrefix: true
