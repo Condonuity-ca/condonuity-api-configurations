@@ -40,3 +40,11 @@ zuul:
       path: /messages/**
       serviceId: message-service
       stripPrefix: true
+    client-service:
+      path: /client/**
+      serviceId: client-service
+      stripPrefix: true
+    vendor-service:
+      path: /vendor/**
+      serviceId: vendor-service
+      stripPrefix: true
