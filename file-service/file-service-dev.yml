@@ -18,10 +18,12 @@ spring:
     username: condonuitydbuser@condonuitydev
     password: '{cipher}c822ef0dae34f3ed01d913f277528d004a6f2a090cdb1f18ebe7f33553446d02'
 
-spring.http:
-  multipart:
-    max-file-size: 1GB
-    max-request-size: 1GB
+spring:
+  http:
+    multipart:
+      enabled: true
+      max-file-size: 1024MB
+      max-request-size: 1024MB
     
 spring.jpa:
   hibernate:
