@@ -21,5 +21,3 @@ spring.jpa:
   properties:
     hibernate:
       dialect: org.hibernate.dialect.MySQL5InnoDBDialect
-
-db.schema=condonuitydev
