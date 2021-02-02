@@ -11,7 +11,7 @@ spring:
   datasource:
     url: jdbc:mysql://condonuityuatdb.mysql.database.azure.com:3306/condonuityuat?serverTimezone=UTC&useLegacyDatetimeCode=false
     username: condonuity@condonuityuatdb
-    password: '{cipher}798161371b66572a9dce2303c9236bf83d161e5b1ed797dba762828907b24198'
+    password: '{cipher}cb6c724122a20431a2dd653d6446ce8f80dad820865703652eed428f1af86c1a'
 
 
 
