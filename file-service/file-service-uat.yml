@@ -8,7 +8,7 @@ eureka:
 
 azure:
   storage:
-    ConnectionString: DefaultEndpointsProtocol=https;AccountName=condonuityuatstorage;AccountKey=18/P5Cw2Py/d6dreb5Dlus/K6OMUkAd7PjO6hW6Ey/6Bz6mKUqWYKKjtl7SDfT8xj2EfUeKJNwv0HjRQiJXkoA==;EndpointSuffix=core.windows.net
+    ConnectionString: DefaultEndpointsProtocol=https;AccountName=condonuitystorageuat;AccountKey=VN6ninKX9XOHD2wjIdAYt6iKUeElmB8zROPdQXxO6nxLbJetPPZx1tZtuf+SfE4XFoChzHPsrZcFMPSfzuMUTg==;EndpointSuffix=core.windows.net
     container:
       name: condonuityuatstorage
 
