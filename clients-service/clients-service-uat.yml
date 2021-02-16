@@ -23,6 +23,8 @@ spring:
 #    password:
 #    driver-class-name: com.mysql.jdbc.Driver
 
+baseUrl: 'http://condonuitytest.eastus.cloudapp.azure.com/'
+
 spring.jpa:
   hibernate:
     connection:
