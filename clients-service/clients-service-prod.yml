@@ -22,6 +22,8 @@ spring:
 #    password:
 #    driver-class-name: com.mysql.jdbc.Driver
 
+baseUrl: 'https://app.condonuity.ca/'
+
 spring.jpa:
   hibernate:
     connection:
