@@ -12,6 +12,7 @@ spring:
     username: condonuity@condonuityuatdb
     #password: '{cipher}cb6c724122a20431a2dd653d6446ce8f80dad820865703652eed428f1af86c1a'
     password: Condo$12345
+  baseUrl: 'http://condonuitytest.eastus.cloudapp.azure.com/'
 
 
 spring.jpa:
