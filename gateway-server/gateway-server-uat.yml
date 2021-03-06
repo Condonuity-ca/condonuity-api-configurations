@@ -1,10 +1,10 @@
 server:
-  port: 8762
+  port: 9762
 
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://127.0.0.1:8761/eureka/
+      defaultZone: http://127.0.0.1:9761/eureka/
 
 ribbon:
    ReadTimeout: 60000
@@ -46,4 +46,3 @@ zuul:
       path: /vendor/**
       serviceId: vendor-service
       stripPrefix: true
-

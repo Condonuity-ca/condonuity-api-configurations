@@ -1,17 +1,17 @@
 server:
-  port: 8204
+  port: 9204
 
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://127.0.0.1:8761/eureka/
+      defaultZone: http://127.0.0.1:9761/eureka/
 
 spring:
   datasource:
-    url: jdbc:mysql://condonuityuatdb.mysql.database.azure.com:3306/condonuityuat?serverTimezone=UTC&useLegacyDatetimeCode=false
-    username: condonuity@condonuityuatdb
-    #password: '{cipher}cb6c724122a20431a2dd653d6446ce8f80dad820865703652eed428f1af86c1a'
-    password: Condo$12345
+    url: jdbc:mysql://condonuity-prod-db.mysql.database.azure.com:3306/condonuityuat?serverTimezone=UTC&useLegacyDatetimeCode=false
+    username: condonuity@condonuity-prod-db
+    password: '{cipher}e0601cc852475108016ddb3d2907a08eacd8735d8b0d9d10ac02317091c21c33'
+
 
 
 
