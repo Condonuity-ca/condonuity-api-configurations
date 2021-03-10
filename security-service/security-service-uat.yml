@@ -13,7 +13,7 @@ spring:
     password: '{cipher}e0601cc852475108016ddb3d2907a08eacd8735d8b0d9d10ac02317091c21c33'
 
 
-baseUrl: 'http://condonuitytest.eastus.cloudapp.azure.com/'
+baseUrl: 'https://uatapp.condonuity.ca/'
 
 
 spring.jpa:
