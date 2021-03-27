@@ -1,10 +1,10 @@
 server:
-  port: 9203
+  port: 8203
 
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://127.0.0.1:9761/eureka/
+      defaultZone: http://127.0.0.1:8761/eureka/
 
 spring:
   datasource:
@@ -13,7 +13,7 @@ spring:
     password: '{cipher}e0601cc852475108016ddb3d2907a08eacd8735d8b0d9d10ac02317091c21c33'
 
 
-baseUrl: 'https://uatapp.condonuity.ca/'
+baseUrl: 'http://uatcondonuity.eastus.cloudapp.azure.com/'
 
 
 spring.jpa:
