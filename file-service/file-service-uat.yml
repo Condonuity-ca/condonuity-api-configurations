@@ -1,10 +1,10 @@
 server:
-  port: 9205
+  port: 8205
 
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://127.0.0.1:9761/eureka/
+      defaultZone: http://127.0.0.1:8761/eureka/
 
 azure:
   storage:
